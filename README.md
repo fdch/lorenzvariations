@@ -6,6 +6,10 @@ Written for the Virginia Tech Cube during the Music Spatialization Workshop at C
 
 Run `run.command` which will open 2 instances of Pd. Keep them separate on the screen so you know which one is which.
 
+Before doing anything: edit [_maindac N] so that N = total number of speakers
+
+# Sections
+
 The piece has 3 sections. While sections 1-2 are fully automated and meant to be played from one instance, section 3 needs to be performed from the second Pd instance. I'd suggest turning DSP ON for the 2nd instance during the end of the second section. Once you hit 'section-3', turn DSP OFF in the 1st instance. Instances are not connected, so you need to manually do that.
 
 # Section 3 instructions: [_lorsig-controls]
