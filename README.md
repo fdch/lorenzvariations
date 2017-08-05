@@ -2,6 +2,9 @@
 
 Written for the Virginia Tech Cube during the Music Spatialization Workshop at Cube Fest 2017.
 
+![alt text](https://raw.githubusercontent.com/fdch/lorenzvariations/master/screenshot.png)
+
+
 # Instructions
 
 Run `run.command` which will open 2 instances of Pd. Keep them separate on the screen so you know which one is which.
