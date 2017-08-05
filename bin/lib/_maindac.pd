@@ -1,0 +1,10 @@
+#N canvas 0 22 450 300 12;
+#X text 59 177 stage;
+#X obj 125 154 clone -s 1 _dac-perform 124 125 \$1;
+#X obj 125 176 clone -s 129 _dac-perform 10 125 \$1;
+#X obj 125 198 clone -s 125 _dac 4 \$1;
+#X text 19 153 walls \, grid;
+#X text 67 197 subs;
+#X text 34 119 This is configured for the Virginia Tech Cube;
+#X text 38 26 Argument 1 is a modulo for dacs to crudely fold upon
+speaker numbers, f 39;

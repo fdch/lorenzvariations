@@ -1,0 +1,22 @@
+#N canvas 0 22 450 300 10;
+#X obj 10 10 cnv 4 260 60 BG0 BG0-set empty 0 0 0 4 -99865 -262144
+0;
+#N canvas 0 22 450 300 section-monitor 1;
+#X obj 12 12 cnv 14 252 52 BG BG-set section-monitor 4 7 0 12 -233017
+-1 0;
+#X obj 256 12 bng 8 50 10 0 empty emtpy emtpy 0 0 0 4 -262144 -1 -1
+;
+#X msg 272 16 menu-open;
+#X obj 272 40 s pd-section-monitor;
+#X obj 20 30 bng 30 250 50 0 start-all empty start 35 15 0 13 -204786
+-1 -1;
+#X obj 195 23 cnv 15 70 40 empty section S:2 10 20 0 30 -228856 -1
+0;
+#X obj 99 37 fd_stopwatch;
+#X obj 172 14 bng 15 250 50 0 section-3 empty section-3 17 7 0 10 -204786
+-1 -1;
+#X connect 1 0 2 0;
+#X connect 2 0 3 0;
+#X coords 0 0 256 56 256 56 2 10 10;
+#X restore 12 12 pd section-monitor;
+#X coords 0 0 260 60 260 60 2 10 10;

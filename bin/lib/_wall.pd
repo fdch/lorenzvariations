@@ -1,0 +1,8 @@
+#N canvas 781 179 450 300 12;
+#X obj 31 32 inlet~;
+#X obj 222 163 clone -s \$4 _throw \$1;
+#X obj 222 193 clone -s \$5 _throw \$2;
+#X obj 222 223 clone -s \$6 _throw \$3;
+#X connect 0 0 1 0;
+#X connect 0 0 2 0;
+#X connect 0 0 3 0;

@@ -1,0 +1,33 @@
+#N canvas 0 22 450 300 10;
+#X obj 10 10 cnv 4 260 200 BG0 BG0-set empty 0 0 0 4 -99865 -262144
+0;
+#N canvas 0 22 450 300 vol-control 1;
+#X obj 12 12 cnv 14 252 192 BG BG-set vol-control 4 7 0 12 -233017
+-1 0;
+#X obj 256 12 bng 8 50 10 0 empty emtpy emtpy 0 0 0 4 -262144 -1 -1
+;
+#X msg 272 16 menu-open;
+#X obj 272 40 s pd-vol-control;
+#X obj 23 127 hsl 128 20 80 20000 1 1 rolloff empty rolloff(Hz) -2
+-8 0 15 -262144 -1 -1 9900 1;
+#X obj 23 162 hsl 128 20 20 20000 1 1 subcut empty subcut(Hz) -2 -8
+0 15 -262144 -1 -1 2300 1;
+#X obj 171 127 nbx 8 20 -1e+37 1e+37 0 0 empty rolloff empty 0 -8 0
+10 -262144 -1 -1 5920.39 256;
+#X obj 171 161 nbx 8 20 -1e+37 1e+37 0 0 empty subcut empty 0 -8 0
+10 -262144 -1 -1 69.8775 256;
+#X obj 22 88 hsl 128 20 0 120 0 1 volsubdB empty volsub(dB) -2 -8 0
+15 -262144 -1 -1 4500 1;
+#X obj 170 88 nbx 8 20 -1e+37 1e+37 0 0 empty volsub volsub(rms) 0
+-8 0 10 -262144 -1 -1 0.00133655 256;
+#X obj 22 48 hsl 128 20 0 120 0 1 voldB empty vol(dB) -2 -8 0 15 -262144
+-1 -1 8000 1;
+#X obj 170 48 nbx 8 20 -1e+37 1e+37 0 0 empty vol vol(rms) 0 -8 0 10
+-262144 -1 -1 0.0601905 256;
+#X obj 117 26 nbx 3 15 -1e+37 1e+37 0 0 empty voldB voldB 0 -8 0 10
+-262144 -1 -1 75.5906 256;
+#X connect 1 0 2 0;
+#X connect 2 0 3 0;
+#X coords 0 0 256 196 256 196 2 10 10;
+#X restore 12 12 pd vol-control;
+#X coords 0 0 260 200 260 200 2 10 10;
