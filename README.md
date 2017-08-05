@@ -1,13 +1,13 @@
 # Performance patch for Lorenz Variations
 
-Written for the Virginia Tech Cube during the Music Spatialization Workshop at Cube Fest 2017.
+Written for the Virginia Tech Cube during the Spatial Music Workshop at Cube Fest 2017.
 
 ![alt text](https://raw.githubusercontent.com/fdch/lorenzvariations/master/screenshot.png)
 
 
 # Instructions
 
-Run `run.command` which will open 2 instances of Pd. Keep them separate on the screen so you know which one is which.
+Run `run.command` which will open 2 instances of Pd. Keep them septarate on the screen so you know which one is which.
 
 Before doing anything: edit [_maindac N] so that N = total number of speakers
 
